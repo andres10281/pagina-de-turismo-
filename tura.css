@@ -1,32 +1,67 @@
 /* Colores personalizados */
 .bg-green {
-  background-color: #4CAF50; /* Verde */
+  background-color: #4CAF50; /* Color verde */
 }
+
 .text-green {
   color: #4CAF50;
 }
+
 .bg-yellow {
-  background-color: #FFEB3B; /* Amarillo */
-}
-.text-yellow {
-  color: #FFEB3B;
-}
-.btn-yellow {
-  background-color: #FFEB3B;
-  color: black;
-}
-.btn-green {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #FFD700; /* Color amarillo */
 }
 
+.text-yellow {
+  color: #FFD700;
+}
+
+/* Estilos del banner */
 .banner {
-  background: url('banner.jpg') center/cover no-repeat;
-  padding: 80px 0;
+  background-image: url('https://via.placeholder.com/1200x500'); /* Coloca la imagen que desees */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
 }
-.text-white {
-  color: white;
+
+.banner h1 {
+  font-size: 2.5rem;
 }
-.text-black {
-  color: black;
+
+.banner p {
+  font-size: 1.2rem;
 }
+
+/* Ajustes de responsividad */
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .banner {
+    padding: 60px 15px;
+    text-align: center;
+  }
+
+  .banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .banner p {
+    font-size: 0.9rem;
+  }
+}
+

@@ -1,0 +1,32 @@
+/* Colores personalizados */
+.bg-green {
+  background-color: #4CAF50; /* Verde */
+}
+.text-green {
+  color: #4CAF50;
+}
+.bg-yellow {
+  background-color: #FFEB3B; /* Amarillo */
+}
+.text-yellow {
+  color: #FFEB3B;
+}
+.btn-yellow {
+  background-color: #FFEB3B;
+  color: black;
+}
+.btn-green {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.banner {
+  background: url('banner.jpg') center/cover no-repeat;
+  padding: 80px 0;
+}
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black;
+}
